@@ -12,3 +12,6 @@ $ORIGIN informatica.net.
 ares			A	172.16.100.1
 ns1			CNAME	zeus
 zeus			A	172.16.100.100
+www			CNAME	zeus
+docencia		CNAME	zeus
+informatica.net.	A	172.16.100.100

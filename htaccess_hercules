@@ -1,0 +1,4 @@
+DirectoryIndex indice.html
+Options FollowSymLinks
+Require all granted
+

@@ -1,0 +1,7 @@
+DirectoryIndex indice.html
+Options FollowSymLinks
+
+<RequireAny>
+	Require ip 172.16.100.100/24
+</RequireAny>
+
