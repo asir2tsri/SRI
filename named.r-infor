@@ -1,0 +1,14 @@
+$ORIGIN .
+$TTL 86400	; 1 day
+100.16.172.in-addr.arpa	IN SOA	zeus.informatica.net. root.informatica.net. (
+				42         ; serial
+				604800     ; refresh (1 week)
+				86400      ; retry (1 day)
+				2419200    ; expire (4 weeks)
+				604800     ; minimum (1 week)
+				)
+			NS	zeus.informatica.net.
+$ORIGIN 100.16.172.in-addr.arpa.
+1			PTR	ares.informatica.net.
+100			PTR	zeus.informatica.net.
+20			PTR	pruebas.informatica.net.

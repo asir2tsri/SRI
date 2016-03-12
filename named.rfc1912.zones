@@ -40,3 +40,14 @@ zone "0.in-addr.arpa" IN {
 	allow-update { none; };
 };
 
+zone "informatica.net" IN {
+	type master;
+	file "named.infor";
+	allow-update { none; };
+};
+
+zone "100.16.172.in-addr.arpa" IN {
+	type master;
+	file "named.r-infor";
+	allow-update { none; };
+};
