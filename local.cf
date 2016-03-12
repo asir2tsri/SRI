@@ -5,6 +5,7 @@
 # without risking lost emails.
 
 required_hits 5
+required_score 5
 report_safe 0
 rewrite_header Subject [SPAM]
 
