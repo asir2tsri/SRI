@@ -111,3 +111,5 @@ smtpd_tls_key_file = /etc/pki/tls/private/localhost.key
 smtpd_tls_cert_file = /etc/pki/tls/certs/localhost.crt
 smtpd_tls_loglevel = 1
 smtpd_tls_received_header = yes
+
+content_filter=smtp-amavis:[127.0.0.1]:10024
