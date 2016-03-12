@@ -10,6 +10,8 @@
 // See /usr/share/doc/bind*/sample/ for example named configuration files.
 //
 
+include "/etc/ddns.key";
+
 zone "localhost.localdomain" IN {
 	type master;
 	file "named.localhost";
@@ -46,8 +48,17 @@ zone "informatica.net" IN {
 	allow-update { none; };
 };
 
+zone "din.informatica.net" IN {
+	type master;
+	notify no;
+	file "named.din.infor";
+	allow-update { key DDNS_UPDATE; };
+};
+
 zone "100.16.172.in-addr.arpa" IN {
 	type master;
 	file "named.r-infor";
 	allow-update { none; };
 };
+
+

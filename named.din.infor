@@ -1,0 +1,16 @@
+$ORIGIN .
+$TTL 86400	; 1 day
+din.informatica.net	IN SOA	zeus.informatica.net. root.informatica.net. (
+				158        ; serial
+				604800     ; refresh (1 week)
+				86400      ; retry (1 day)
+				2419200    ; expire (4 weeks)
+				604800     ; minimum (1 week)
+				)
+			NS	zeus.informatica.net.
+$ORIGIN din.informatica.net.
+$TTL 1800	; 30 minutes
+WXP			A	172.16.100.7
+			TXT	"316ced2f54bf58d6b838391c6e78b22a81"
+$TTL 86400	; 1 day
+zeus			A	172.16.100.100
