@@ -14,4 +14,9 @@ ns1			CNAME	zeus
 zeus			A	172.16.100.100
 www			CNAME	zeus
 docencia		CNAME	zeus
+smtp			CNAME	zeus
+imap			CNAME	zeus
+webmail			CNAME	zeus
 informatica.net.	A	172.16.100.100
+
+	IN	MX	10	zeus.informatica.net.
