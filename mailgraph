@@ -12,9 +12,9 @@
 
 PATH=/bin:/usr/bin
 MAILGRAPH_PL=/usr/local/bin/mailgraph.pl
-MAIL_LOG=/var/log/syslog
+MAIL_LOG=/var/log/maillog
 PID_FILE=/var/run/mailgraph.pid
-RRD_DIR=/var/lib
+RRD_DIR=/var/lib/mailgraph
 
 case "$1" in
 'start')
